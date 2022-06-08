@@ -18,6 +18,22 @@ html {
   padding-bottom: 2em;
 }
 
+/*social hovver*/
+
+.social-links-container nav ul li a:hover {
+    color: rgb(52, 96, 207);
+}
+
+/*bio mel*/
+.biography-text{
+  font-size: 1.9ch;
+}
+/*card niveles*/
+
+.cards-container .card-title{
+  text-align: center !important;
+}
+
 /* menu*/
 
 

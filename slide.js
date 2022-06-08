@@ -2,7 +2,14 @@
 if(document.querySelector('#container-slider')){
    setInterval('fntExecuteSlide("next")',5000);
 }
+
+//------------------Animacion de slide autoloop-------------------
+
+
 //------------------------------ LIST SLIDER -------------------------
+
+
+
 if(document.querySelector('.listslider')){
    let link = document.querySelectorAll(".listslider li a");
    link.forEach(function(link) {
