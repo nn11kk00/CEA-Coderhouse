@@ -793,6 +793,7 @@
     }
 
     .tutorias .tutorias-description {
+        text-align: justify;
         font-size: 16px;
         line-height: 30px
     }
@@ -1079,7 +1080,7 @@ p {
 
 .form-title {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: .04em;
     line-height: 39px;
     margin-bottom: 2rem
@@ -1258,7 +1259,7 @@ input {
 
 .FAQ .FAQ__title {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: .02em;
     margin-bottom: 2rem
 }
@@ -1364,7 +1365,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: .8rem 3rem;
+    padding: .8rem 7rem;
     width: 100%
 }
 
