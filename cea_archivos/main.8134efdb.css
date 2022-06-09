@@ -409,7 +409,7 @@
 @media screen and (max-width:576px) {
 
 .p-faq{
-  padding: 0;
+  padding: 0 !important;
 }
 
     .carousel-whatsapp {
