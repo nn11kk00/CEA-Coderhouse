@@ -407,6 +407,11 @@
 }
 
 @media screen and (max-width:576px) {
+
+.p-faq{
+  padding: 0;
+}
+
     .carousel-whatsapp {
         position: absolute !important;
         right: 3rem
@@ -1356,8 +1361,12 @@ input {
     font-weight: 700
 }
 
+.p-faq{
+
+  padding: 0 2em;
+}
+
 .interLineado{
-  padding: 0 2em;;
   line-height: 28px !important;
 }
 
