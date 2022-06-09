@@ -168,7 +168,7 @@ html {
  
 /*ultimos cambios*/
 
-.btn-send{
+.btn-send:hover{
   background-color: white;
   
   color: black;
