@@ -955,7 +955,7 @@ p {
 
 .level-title {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 auto;
     padding: 5rem 0 0 3rem;
     text-align: start;
@@ -1080,7 +1080,7 @@ p {
 
 .form-title {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: .04em;
     line-height: 39px;
     margin-bottom: 2rem
@@ -1259,7 +1259,7 @@ input {
 
 .FAQ .FAQ__title {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: .02em;
     margin-bottom: 2rem
 }
