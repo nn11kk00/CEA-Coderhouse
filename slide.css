@@ -10,7 +10,7 @@ html {
 
 
 .logo_text{
-  color:rgb(83, 131, 252);
+  color:#9dafff ;
 }
 
 
@@ -26,7 +26,7 @@ html {
 
 /*bio mel*/
 .biography .biography-text{
-  font-size: 1.7ch !important;
+  font-size: 16px !important;
 }
 /*card niveles*/
 
@@ -102,7 +102,7 @@ html {
 
 /*  navbar */
 .topnav {
-  background-color: rgb(83, 131, 252) ;
+  background-color: #9dafff ;
   overflow: hidden;
 }
 
@@ -119,8 +119,8 @@ html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(53, 110, 255) ;
-  color: black;
+  background-color: #859bfe ;
+  color: white;
 }
 
 /* Add an active class to highlight the current page */
@@ -138,6 +138,10 @@ html {
 /* MENU RESPONSIVE*/
 
 @media (max-width: 900px) {
+
+  .social-links ul .iconify{
+    color: rgb(80, 80, 80) !important;
+  }
     
     .nav-desktop{
         display: none;
@@ -152,6 +156,8 @@ html {
 
 }
 @media (min-width: 601px) {
+
+ 
     
     .topnav{
         display: flex;
@@ -160,6 +166,30 @@ html {
 
 }
  
+/*ultimos cambios*/
+
+.social-links ul .iconify{
+  font-size: 30px;
+}
+
+.header-container .header .title{
+  font-size: 18px;
+}
+
+
+
+.tutorias .tutorias-subtitle{
+  font-weight: 500 !important;
+}
+
+.card-button-text:hover {
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  border: 1px solid #9dafff;
+  padding: 1rem 2rem;
+}
+
 
 
 /*slide*/
@@ -249,16 +279,17 @@ html {
     font-weight: 400;
     letter-spacing: 1px;
     padding: 10px 50px;
-    border: 1px solid #CCC;
+    border: 3px solid white;
     
-    background: #5170FE;
+    background: #9dafff ;
     border-radius: 12px;
     text-decoration: none;
     transition: .5s all;
 }
 .btnSlider:hover{
-    background: #111;
-    border: 1px solid #111;
+    background: white;
+    border: 3px solid #9dafff ;
+    color: black;
 }
 .listslider {
     position: absolute;
