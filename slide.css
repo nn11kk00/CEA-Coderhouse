@@ -168,6 +168,15 @@ html {
  
 /*ultimos cambios*/
 
+.btn-send{
+  background-color: white;
+  
+  color: black;
+  border: 1px solid #9dafff;
+ 
+
+}
+
 .social-links ul .iconify{
   font-size: 30px;
 }
