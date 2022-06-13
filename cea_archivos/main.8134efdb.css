@@ -949,22 +949,21 @@ p {
 }
 
 .level-container {
-    align-items: flex-start;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 2rem 0;
-    width: 96%
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem !important;
+    width: 100%;
 }
 
+
+
+
 .level-title {
+  margin-bottom: 10px;
     font-size: 32px;
     font-weight: 600;
-    margin: 0 auto;
-    padding: 5rem 0 0 3rem;
-    text-align: start;
-    width: 90%
+    letter-spacing: .02em;
 }
 
 .cards-container {
@@ -1079,7 +1078,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem;
+    padding: 2rem;
     width: 100%
 }
 
