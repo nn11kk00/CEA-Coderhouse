@@ -1,5 +1,5 @@
 <?php
-if(!empty($_POST["send"])) {
+if($_POST["send"]) {
 	$name = $_POST["name"];
 	$email = $_POST["Email"];
 	$content = $_POST["mesagge"];
