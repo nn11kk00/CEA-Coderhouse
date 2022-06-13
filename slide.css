@@ -158,6 +158,20 @@ html {
 @media (min-width: 601px) {
 
  
+    #myBtn-wa {
+
+  bottom: 100px; /* Place the button at the bottom of the page */
+
+
+}
+
+
+
+#myBtn {
+  display: none;
+}
+
+
     
     .topnav{
         display: flex;
@@ -368,4 +382,11 @@ html {
   .mail-margen{
     margin-top: 19px;
   }
+
+
+
+
+
+
+
 }

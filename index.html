@@ -244,14 +244,21 @@
         <p class="text-thee">Por último, me gustaría que sepas que disfruto de todas las <span class="fw-5">etapas de
             aprendizaje</span> entonces decidí, hace varios años, ofrecer <span class="fw-5">tutorías pedagógicas
             virtuales.</span></p>
-        <p class="text-four ">¡Así que te invito a conocer los niveles en los que te puedo acompañar!</p>
+        <p class="text-four ">¡Te invito a conocer los niveles en los que te puedo acompañar!</p>
         <div class="buttons-container"><a target="blank" href="https://www.instagram.com/ciencia_educa_argentina/"
             class="instagram-link">Ver Instagram</a><a target="blank"
             href="https://www.linkedin.com/in/ciencia-educa-argentina/" class="linkedin-link">Ver LinkedIn</a></div>
       </div>
     </div>
-    <h2 class="level-title" id="niveles">Niveles</h2>
+
+
+
     <div class="level-container">
+
+
+      <h2 class="level-title" id="niveles">Niveles</h2>
+
+
       <div class="cards-container">
         <div class="card">
           <div class="text-content"><img src="./cea_archivos/nivel01.0f0ed6c0257bda266c36.png" alt="level">
@@ -292,7 +299,7 @@
         <div class="card">
           <div class="text-content"><img src="./cea_archivos/nivel02.daacaf324a6f10b71ccc.png" alt="level">
             <h3 class="card-title">Carreras universitarias</h3>
-            <p class="text-special">Ciencias exactas, Ingenierías, Ciencias de la Salud, Psicología</p>
+            <p class="text-special">Ciencias exactas, Ingenierías, Ciencias de la Salud, Psicología y muchas más</p>
             <p class="text"><img src="./cea_archivos/ok.c6006ea0e8bec5cd30a4bf6b896e7431.svg" alt="ok"> Conversamos
               sobre el plan de la carrera</p>
             <p class="text"><img src="./cea_archivos/ok.c6006ea0e8bec5cd30a4bf6b896e7431.svg" alt="ok"> Realizamos un
@@ -307,18 +314,34 @@
     </div>
     <div class="form-container" id="contacto">
       <h3 class="form-title">Contacto</h3>
-      <form class="form">
+
+
+      <form action="send_form.php" method="post" class="form">
+
+
         <div class="form-group">
           <div class="form-input"><label class="form-label" for="name">Nombre</label><input type="text" name="name"
               placeholder="Nombre completo" autocomplete="off" value=""></div>
+
+
           <div class="form-input mail-margen"><label class="form-label" for="email">Mail</label><input type="email"
               name="email" placeholder="Email" autocomplete="off" value=""></div>
+
+
         </div>
         <div class="form-message"><label class="form-label" for="message">Mensaje</label><textarea name="message"
             placeholder="Escribí tu mensaje..." class="form-textarea"></textarea></div><a
           href="https://api.whatsapp.com/send?phone=$+541169559322&amp;text=%C2%A1Hola!&amp;source=&amp;data="
-          target="_blank" rel="noopener noreferrer"><button type="button" class="btn-send">Enviar</button></a>
+          target="_blank" rel="noopener noreferrer"><button name="send" type="button"
+            class="btn-send">Enviar</button></a>
       </form>
+
+
+
+
+
+
+
     </div>
     <div class="FAQ" id="faq">
       <h3 class="FAQ__title">Preguntas frecuentes</h3>
