@@ -67,8 +67,8 @@ html {
 
 #myBtn-wa {
     position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 10px; /* Place the button 30px from the right */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 3.5px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -79,11 +79,11 @@ html {
 }
 
 
-/*
+
 #myBtn {
   position: fixed;
-  bottom: 100px; 
-  right: 30px; 
+  bottom: 30px; 
+  right: 20px; 
   z-index: 99; 
   border: none; 
   outline: none; 
@@ -94,7 +94,7 @@ html {
   border-radius: 5px; 
   font-size: 15px; 
 }
-*/
+
 
 #myBtn:hover {
   background-color: rgb(83, 131, 252, 0.55); /* Add a dark-grey background on hover */
@@ -370,6 +370,10 @@ html {
 @media screen and (max-width: 575px){
   .mail-margen{
     margin-top: 19px;
+  }
+
+  .footer{
+    padding: 0.8rem 0rem;
   }
 
 
